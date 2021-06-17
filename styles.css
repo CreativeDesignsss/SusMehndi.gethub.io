@@ -1,0 +1,68 @@
+.zoom:hover {
+    transform: scale(.90); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  .header_text_zoom:hover {
+    transform: scale(1.06); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  .text_zoom:hover {
+    transform: scale(1.06); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  
+  .img-hover-zoom {
+    height: 200px; /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  }
+  
+  /* [2] Transition property for smooth transformation of images */
+  .img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+  
+  /* [3] Finally, transforming the image when container gets hovered */
+  .img-hover-zoom:hover img {
+    transform: scale(1.2);
+  }
+
+  .login {
+    background-color: rgb(68, 33, 33);
+    width: 400px;
+    height: 530px;
+    overflow: hidden;  
+    margin: auto;  
+    padding: 20px;
+    border-radius: 20px;
+    margin: 200 30 0 45px;
+    padding: 80px;
+   
+    
+  }
+  #loginhere {
+    margin: auto;  
+        
+  }
+
+  body  
+  {  
+      margin: 0;  
+      padding: 0;  
+      background-color:#ffffff;  
+      font-family: 'Arial';  
+  } 
+  h2{  
+    text-align: center;  
+    color: #822727;  
+    padding: 20px;  
+}
+
+  #id{
+    width: 200px;
+    height: 30px;
+    border: none ;
+    border-radius: 3px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+  }
